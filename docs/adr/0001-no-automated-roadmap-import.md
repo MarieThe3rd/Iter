@@ -1,0 +1,5 @@
+# No automated import from roadmap.sh
+
+Iter's Roadmaps are deliberately modeled after roadmap.sh's tree-shaped roadmaps, which makes automated import a natural thing to want. We investigated it: roadmap.sh's open-source repo ([github.com/nilbuild/developer-roadmap](https://github.com/nilbuild/developer-roadmap)) publishes only flat per-topic Markdown content keyed by node ID, via a one-way sync script — the tree hierarchy and layout live only in roadmap.sh's own private database and rendering layer, and are not published anywhere. There is no official API, no data export, and only unmaintained third-party scrapers claim to fill the gap. Their license also permits personal use but explicitly forbids redistributing "the project files or the content," an added consideration for any scraping approach.
+
+Decision: Roadmaps are built by manually recreating the structure, using the live roadmap.sh page purely as a visual reference — no scraping or reverse-engineering of their site. Revisit if roadmap.sh ever ships an official structured export.
