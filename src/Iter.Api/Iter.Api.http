@@ -1,0 +1,6 @@
+@Iter.Api_HostAddress = http://localhost:5121
+
+GET {{Iter.Api_HostAddress}}/health
+Accept: application/json
+
+###

@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Iter.Api.Tests/Iter.Api.Tests.csproj" />
+    <Project Path="src/Iter.Api/Iter.Api.csproj" />
+  </Folder>
+</Solution>
